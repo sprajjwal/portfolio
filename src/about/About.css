@@ -1,0 +1,10 @@
+.about {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+
+.about p {
+  color: white;
+  font-size: 4em;
+}

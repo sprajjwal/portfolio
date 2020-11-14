@@ -28,11 +28,11 @@
 }
 
 #contact-form textarea{
-  height: 7.5%;
   width: 80%;
   margin: 10px;
   resize: vertical;
   font-size: 2em;
+  min-height: 37%;
   max-height: 55%;
 }
 

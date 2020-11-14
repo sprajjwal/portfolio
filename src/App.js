@@ -3,17 +3,16 @@ import './App.css'
 
 import Navbar from './navbar/Navbar';
 import About from './about/About';
+import Projects from './projects/Projects'
 import Footer from './footer/Footer';
 
 const App = () => {
 
   return (
-    <div>
+    <div id="container">
       <Navbar />
-      <div className="filler">a</div>
-      <div className="filler">a</div>
-      <div className="filler">a</div>
       <About />
+      <Projects />
       <Footer />
     </div>
   );

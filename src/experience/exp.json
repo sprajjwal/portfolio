@@ -1,0 +1,31 @@
+[
+	{
+		"pos": "Front End Engineer/ Project Technical Lead",
+		"company": "Redbubble",
+		"time": "Aug 2020 - Dec 2020",
+		"task": [
+			"Technical lead of  a team of 4 people working on a ReactJS, Django, SQL stack",
+			"Created a tool fulfillers will use to request product price changes from Redbubble admins and keep track of these prices",
+			"Planned database model updates to improve query time from linear to constant time"
+		]
+	},
+	{
+		"pos": "Teaching Assistant",
+		"company": "Make School",
+		"time": "Jan 2020 - Present",
+		"task": [
+			"Held office hours to explain CS concepts such as Data Structures, search algorithms and time complexity",
+			"Explained JS concepts including callbacks, asynchronous programming and closures to over 40 students each term",
+			"Assisted with grading coding challenges, assignments and gave code feedback"
+		]
+	},
+	{
+		"pos": "Peer Mentor",
+		"company": "Make School",
+		"time": "Sep 2020 - Present",
+		"task": [
+			"Mentored first-year students in their transition to Make School to increase overall student retention rates",
+			"Modeled vulnerability to new students and provided mentees with a safe place to ask for help"
+		]
+	}
+]

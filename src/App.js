@@ -7,14 +7,18 @@ import Footer from './footer/Footer';
 import Experience from './experience/Experience';
 import Socials from './socials/Socials';
 
+import './App.css';
+
 import { Container, Button, Modal } from 'react-bootstrap'
 
 const App = () => {
   return (
     <>
-      <Container id="container">
+      <Container id="container" className="d-flex justify-content-start">
         {/* left box */}
-        <About />
+        <Container id="left">
+          <About />
+        </Container>
         {/* right section */}
         <Container id="right">
           <Projects />

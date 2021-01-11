@@ -1,4 +1,12 @@
 #container {
   background-color: #252652;
-  min-height: 100vh;
+}
+
+#left {
+  width: 40%;
+  min-height: 1000px;
+}
+
+#right {
+  max-width: 60%;
 }

@@ -1,15 +1,15 @@
 import React from 'react';
 import './About.css'
 
-import { Container } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 const ME = require("../static/me.svg")
 
 function About(props) {
 
   return (
-    <Container id="about">
-      <img src={ME}/>
-    </Container>
+    <div id="about">
+      <Image src={ME} className="img p-2" roundedCircle/>
+    </div>
   )
 }
 

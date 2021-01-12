@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+    .edu-box {
+        min-height: 400px !important;
+        height: 600px!important;
+        min-width: 100vw !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+#edu {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.edu-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px !important;
+    height: 47% !important;
+    min-width: 200px;
+    width: 100%;
+}
+
+.edu-front {
+    background-color: #651E3E;
+    padding: .5em;
+}
+
+.edu-back {
+    background-color: #851E3E;
+    padding: 2em;
+}
+
+#edu > img {
+    height: 80%;
+    width: 80%;
+}

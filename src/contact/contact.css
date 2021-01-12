@@ -1,51 +1,22 @@
-#contact {
-  min-height: 60vh;
-  width: 100vw;
-  background-color: grey;
-  display: flex;
+@media only screen and (max-width: 768px) {
+  #con {
+    height: 600px!important;
+    min-width: 100vw !important;
+    margin: 0;
+    padding: 0;
+  }
 }
 
-#contact p {
-  display: flex;
-  align-items: center;
-  width: 45%;
-  font-size: 4.5em;
-}
 
-#contact-form {
+#con {
+  min-height: 400px !important;
+  min-width: 200px;
+  width: 100%;
+  max-width: 30vw;
+  background-color: #651E3E;
+  padding: .5em;
   display: flex;
+  margin: 0 !important;
   flex-direction: column;
-  align-items: flex-start;
-  padding-top: 7%;
-  width: 65%;
-}
-
-#contact-form input{
-  font-size: 1.5em;
-  height: 7.5%;
-  width: 80%;
-  margin: 10px;
-}
-
-#contact-form textarea{
-  width: 80%;
-  margin: 10px;
-  resize: vertical;
-  font-size: 2em;
-  min-height: 37%;
-  max-height: 55%;
-}
-
-#contact-form button {
-  width: 15%;
-  height: 8%;
-  margin: 10px;
-}
-
-#contact-form * {
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  padding: 2px 6px;
-  border: 3px solid rgb(210, 210, 236);
+  justify-content: centers;
 }

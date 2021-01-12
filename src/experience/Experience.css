@@ -1,0 +1,17 @@
+#exp-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#flip-card {
+    width: 100%;
+    background-color: yellow;
+    min-width: 400px;
+    width: 400px;
+    margin: 0;
+}
+
+#exp-back {
+
+}

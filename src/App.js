@@ -3,33 +3,56 @@ import React from 'react';
 import About from './about/About';
 import Projects from './projects/Projects'
 import Contact from './contact/Contact'
-import Footer from './footer/Footer';
 import Experience from './experience/Experience';
-import Socials from './socials/Socials';
+import Education from './education/Education'
+import Footer from './footer/Footer';
 
 import './App.css';
 
-import { Container, Button, Modal } from 'react-bootstrap'
-
 const App = () => {
   return (
-    <>
-      <Container id="container" className="d-flex justify-content-start">
+    <div id="container" >
+      <div id="inner-container" className="p-0 m-0">
         {/* left box */}
-        <Container id="left">
-          <About />
-        </Container>
+        <div id="left">
+          <About id="home-about" />
+        </div>
         {/* right section */}
-        <Container id="right">
-          <Projects />
-          <Contact />
-          <Experience />
-          <Socials />
-        </Container>
-      </Container>
+        <div id="right">
+          <div style={styles.homeEdu}><Education /></div>
+
+          <div style={styles.homePro}><Projects /></div>
+          <div style={styles.homeExp}><Experience  /></div>
+          <div style={styles.homeCon}><Contact /></div>
+        </div>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
 export default App;
+
+const styles = {
+  homeExp: {
+    width: "60%",
+    marginRight: "0.5em",
+    marginTop: "0.5em",
+  },
+  homeCon: { 
+    width: "37%",
+    marginLeft: "0.5em",
+    marginTop: "0.5em",
+  },
+  homeEdu: {
+    width: "37%",
+    margin: 0,
+    marginRight: "0.5em",
+    marginBottom: "0.5em"
+  },
+  homePro: {
+    marginLeft: "0.5em",
+    marginBottom: "0.5em",
+    width: "60%",
+  }
+}

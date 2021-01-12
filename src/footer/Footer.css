@@ -1,12 +1,12 @@
 #footer {
   background-color: black;
   min-height: 120px;
+  margin: 0;
   height: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
 }
 
 .footer-text {
@@ -15,7 +15,7 @@
 }
 
 .footer-links > * {
-  margin: 0.5em;
+  margin: 0.5em 0;
   height: 100px;
   width: 100px;
 }

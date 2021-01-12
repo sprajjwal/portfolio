@@ -1,0 +1,20 @@
+[
+  {
+    "name": "React - Word Suggest",
+    "about": "A React Component that leverages tries to suggest words from a list of words.",
+    "github": "https://github.com/sprajjwal/react-WordSuggest",
+    "live": ""
+  },
+  {
+    "name": "Bubble - Summer Challenge Project with Microsoft",
+    "about": "A soical media app that helps plan events while interacting in your bubble of friends built by an Agile team of 4.",
+    "github": "https://github.com/BubbleWand",
+    "live": ""
+  },
+  {
+    "name": "Find My Secret Santa",
+    "about": "A web app that helps you and your friends with your secret santas.",
+    "github": "https://github.com/sprajjwal/project-secret-santa",
+    "live": "https://findmysecretsanta.herokuapp.com/"
+  }
+]

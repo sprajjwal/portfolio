@@ -13,5 +13,10 @@
 }
 
 #exp-back {
+    height: 100%;
+}
 
+.exp-car {
+    min-height: 90%;
+    padding: 0.5em;
 }

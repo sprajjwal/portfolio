@@ -12,17 +12,17 @@ const Education = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <ReactCardFlip id="flip-card" isFlipped={isFlipped} flipDirection="vertical" infinite="true" >
-      <div className="edu-box edu-front flip-card"> 
+    <ReactCardFlip id="edu" isFlipped={isFlipped} flipDirection="vertical" infinite="true" >
+      <div className="edu-box edu-front"> 
         <img alt="EDUCATION" src={EDU} />
-        <button onClick={() => setIsFlipped(true)}>Click to flip</button>
+        <Button variant="secondary" onClick={() => setIsFlipped(true)}>Click to learn about my Education</Button>
       </div>
       <div className="edu-box edu-back">
         <div>
           <h3 className="fs-1" styles="color: #000;"><FontAwesomeIcon icon={faUniversity} color="#e7b0c1" />   Domincan University of California</h3>
           <p className="text-break fs-2 my-fc"><span className="fw-bold fs-1">Graduation Date: </span>August 2021</p>
         </div>
-        <Button variant="secondary" onClick={() => setIsFlipped(false)}>Click to flip</Button>
+        <Button variant="secondary" onClick={() => setIsFlipped(false)}>Back</Button>
       </div>
     </ReactCardFlip>
   )

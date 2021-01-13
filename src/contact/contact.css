@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:924px) {
   #con {
     height: 600px!important;
     min-width: 100vw !important;
@@ -10,6 +10,8 @@
 
 #con {
   min-height: 400px !important;
+  height: 100%;
+  max-height: 45vmin;
   min-width: 200px;
   width: 100%;
   max-width: 30vw;

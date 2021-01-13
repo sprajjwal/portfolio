@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Accordion, Card, Button } from 'react-bootstrap';
+import { Accordion, Card, Button, Image } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
 
 import './project.css'
@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <ReactCardFlip id="edu" isFlipped={isFlipped} flipDirection="vertical" infinite="true" >
       <div className="edu-box edu-front"> 
-        <img src={PRO} />
+        <Image className="img-fluid" src={PRO} />
         <Button variant="secondary" onClick={() => setIsFlipped(true)}>Click to see my Projects</Button>
       </div>
       <div className="edu-box edu-back">
@@ -42,7 +42,7 @@ const Projects = () => {
             )
           })}
         </Accordion>
-        <button onClick={() => setIsFlipped(false)}>Click to flip</button>
+        <Button variant="secondary" onClick={() => setIsFlipped(false)}>Back</Button>
       </div>
     </ReactCardFlip>
   )

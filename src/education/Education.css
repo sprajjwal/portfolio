@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 924px) {
     .edu-box {
         min-height: 400px !important;
         height: 600px!important;
@@ -7,6 +7,7 @@
         padding: 0 !important;
     }
 }
+
 
 #edu {
     overflow: hidden;
@@ -18,19 +19,25 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 400px !important;
-    height: 47% !important;
+    height: 45vh;
     min-width: 200px;
     width: 100%;
 }
 
+.edu-box > img {
+    height: 80%;
+    width: 100%;
+}
 .edu-front {
     background-color: #651E3E;
     padding: .5em;
+    height: 45vmin;
 }
 
 .edu-back {
     background-color: #851E3E;
     padding: 2em;
+    height: 45vmin;
 }
 
 #edu > img {

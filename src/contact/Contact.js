@@ -40,7 +40,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-      <div id="contact">
+      <div id="contact" >
         <Form           
           onSubmit={submitForm}
           action="https://formspree.io/f/meqpzkjg"
